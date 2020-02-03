@@ -1,1 +1,1 @@
-# AStarVisualizer
+# Pathfinding Visuslizer 
