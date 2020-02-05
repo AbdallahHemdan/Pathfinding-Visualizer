@@ -27,8 +27,6 @@
 <br>
 <img src="https://github.com/AbdallahHemdan/Pathfinding-Visualizer/blob/master/Screenshots/5.png">
 <br>
-<img src="https://github.com/AbdallahHemdan/Pathfinding-Visualizer/blob/master/Screenshots/1.png">
-<br>
 <img src="https://github.com/AbdallahHemdan/Pathfinding-Visualizer/blob/master/Screenshots/2.png">
 <br>
 <img src="https://github.com/AbdallahHemdan/Pathfinding-Visualizer/blob/master/Screenshots/3.png">
