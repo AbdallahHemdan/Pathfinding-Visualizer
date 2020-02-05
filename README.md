@@ -34,19 +34,21 @@
 <div align="center">
   
 <img src="https://github.com/AbdallahHemdan/Pathfinding-Visualizer/blob/master/Screenshots/8.png">
-<br>
+<hr>
 <img src="https://github.com/AbdallahHemdan/Pathfinding-Visualizer/blob/master/Screenshots/5.png">
-<br>
+<hr>
 <img src="https://github.com/AbdallahHemdan/Pathfinding-Visualizer/blob/master/Screenshots/2.png">
-<br>
+<hr>
 <img src="https://github.com/AbdallahHemdan/Pathfinding-Visualizer/blob/master/Screenshots/3.png">
-<br>
+<hr>
 <img src="https://github.com/AbdallahHemdan/Pathfinding-Visualizer/blob/master/Screenshots/4.png">
-<br>
+<hr>
+<img src="https://github.com/AbdallahHemdan/Pathfinding-Visualizer/blob/master/Screenshots/9.png">
+<hr>
 <img src="https://github.com/AbdallahHemdan/Pathfinding-Visualizer/blob/master/Screenshots/6.png">
-<br>
+<hr>
 <img src="https://github.com/AbdallahHemdan/Pathfinding-Visualizer/blob/master/Screenshots/7.png">
-<br>
+<hr>
 
 </div>
 
