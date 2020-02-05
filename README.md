@@ -3,7 +3,7 @@
  <img  src="https://github.com/AbdallahHemdan/Pathfinding-Visualizer/blob/master/Screenshots/out.png" alt="pathfinding visulizer logo"></a>
 </p>
 
-<h3 align="center">Pathfinding Visualizer 🎯</h3>
+<h3 align="center">🎯 Pathfinding Visualizer</h3>
 <div align="center">
 
 [![GitHub contributors](https://img.shields.io/github/contributors/AbdallahHemdan/Pathfinding-Visualizer)](https://github.com/AbdallahHemdan/Pathfinding-Visualizer/contributors)
