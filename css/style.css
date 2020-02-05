@@ -76,7 +76,7 @@ body {
 
 .node.start {
   background-color: red;
-  background-image: url("../img/Start.svg");
+  background-image: url("../img/spaceship.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
