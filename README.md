@@ -11,7 +11,8 @@
 [![GitHub forks](https://img.shields.io/github/forks/AbdallahHemdan/Pathfinding-Visualizer)](https://github.com/AbdallahHemdan/Pathfinding-Visualizer/network)
 [![GitHub stars](https://img.shields.io/github/stars/AbdallahHemdan/Pathfinding-Visualizer)](https://github.com/AbdallahHemdan/Pathfinding-Visualizer/stargazers)
 [![GitHub license](https://img.shields.io/github/license/AbdallahHemdan/Pathfinding-Visualizer)](https://github.com/AbdallahHemdan/Pathfinding-Visualizer/blob/master/LICENSE)
-
+<img src="https://img.shields.io/github/languages/top/AbdallahHemdan/Pathfinding-Visualizer"> 
+<img src="https://img.shields.io/github/watchers/AbdallahHemdan/Pathfinding-Visualizer" />
 </div>
 
 ---
