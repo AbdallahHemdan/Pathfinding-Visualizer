@@ -18,7 +18,8 @@
 ---
 ## 🎈 Pathfinding Visualizer ([Click to try 🚀](https://abdallahhemdan.github.io/Pathfinding-Visualizer/))
 
-**_Pathfinding Visualizer_** is a __dynamically__ visualization app used to visulize the process of finding the shortest path from some ```source```to ```destination``` using bunch of diffrent shortest-path algorithms like (A*, DFS, BFS, Dijkstra and Greedy-BFS) with a pretty cool functionalites like ```Controlling the position of the source and destination``` , ```controlling the speed of the visulization``` , ```randomize obstacles in the grid``` and ```clearing the whole grid to add blocks as you like```
+> Built VanillaJS **_pathfinding visualizer_** using bunch of different shortest-path algorithms (A*, DFS, BFS, ...etc.) and Generate the grid using maze-generation algorithm and add the ability of controlling the grid structure and the distribution of the blocks and the position of the source and the destination.
+
 
 ## ⚙ How it Works
 
