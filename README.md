@@ -17,12 +17,10 @@
 
 ---
 ## 🎈 Pathfinding Visualizer ([Click to try 🚀](https://abdallahhemdan.github.io/Pathfinding-Visualizer/))
-------------------------------------------------------------------------------------------------------
 
 **_Pathfinding Visualizer_** is a __dynamically__ visualization app used to visulize the process of finding the shortest path from some ```source```to ```destination``` using bunch of diffrent shortest-path algorithms like (A*, DFS, BFS, Dijkstra and Greedy-BFS) with a pretty cool functionalites like ```Controlling the position of the source and destination``` , ```controlling the speed of the visulization``` , ```randomize obstacles in the grid``` and ```clearing the whole grid to add blocks as you like```
 
 ## ⚙ How it Works
-------------------
 
 1. Users can drag around a start and end node and set them in any place.
 2. Users can then choose a speed of the visualization . 
@@ -30,7 +28,6 @@
 3. Users can optionally randomize the walls in the maze and add more walls by dragging the mouse.
 
 ## 📷 ScreenShots 
--------------------
 
 <div align="center">
   
@@ -54,7 +51,6 @@
 </div>
 
 ## 🕶 Demo
-----------
 
 <div align="center">
   
