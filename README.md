@@ -1,6 +1,9 @@
 <p align="center">
-  <a href="" rel="noopener">
- <img  src="https://github.com/AbdallahHemdan/Pathfinding-Visualizer/blob/master/Screenshots/out.png" alt="pathfinding visulizer logo"></a>
+  <a href="https://github.com/AbdallahHemdan/Pathfinding-Visualizer" rel="noopener">
+    
+  ![Pathfinding visualizer](https://user-images.githubusercontent.com/40190772/83947303-6ece9280-a816-11ea-9ac3-72e28ad8af18.png)
+  
+  </a>
 </p>
 
 <h3 align="center">🎯 Pathfinding Visualizer</h3>
