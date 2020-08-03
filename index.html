@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="css/style.css" />
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
   </head>
-  <body onload="App.launch()">
-    <div id="overlay-1" onclick="App.endFirstOverLay()">
+  <body onload="app.launch()">
+    <div id="overlay-1" onclick="app.endFirstOverLay()">
       <p
         id="text-1"
         class="typewrite"
@@ -23,16 +23,13 @@
       >
         <span class="wrap">🎈🎉</span>
       </p>
-      <!-- <div id="text-1">
-        Welcome to Pathfinding Visualizer.🎈🎉
-      </div> -->
     </div>
-    <div id="overlay-2" onclick="App.endNoPathOverLay()">
+    <div id="overlay-2" onclick="app.endNoPathOverLay()">
       <div class="typewriter" id="text-2">
         ❌ No path found ❌ <br />Randomize || Remove some blocks
       </div>
     </div>
-    <div id="overlay-3" onclick="App.endClickOverLay()">
+    <div id="overlay-3" onclick="app.endClickOverLay()">
       <div class="typewriter" id="text-3">
         Let's Go, Click to Try 🎈🚀
       </div>
@@ -42,34 +39,19 @@
     </header>
     <div class="grid"></div>
     <div id="controls">
-      <button
-        class="btn btn-outline-primary"
-        onclick="App.findPathWithCustomSpeed('Fast')"
-      >
+      <button class="btn btn-outline-primary" onclick="app.findPathWithCustomSpeed('Fast')">
         Fast
       </button>
-      <button
-        class="btn btn-outline-primary"
-        onclick="App.findPathWithCustomSpeed('Medium')"
-      >
+      <button class="btn btn-outline-primary" onclick="app.findPathWithCustomSpeed('Medium')">
         Medium
       </button>
-      <button
-        class="btn btn-outline-primary"
-        onclick="App.findPathWithCustomSpeed('Slow')"
-      >
+      <button class="btn btn-outline-primary" onclick="app.findPathWithCustomSpeed('Slow')">
         Slow
       </button>
-      <button
-        class="btn btn-outline-primary"
-        onclick="Grid.randomizeObstacles()"
-      >
+      <button class="btn btn-outline-primary" onclick="Grid.randomizeObstacles()">
         Randomize Blocks
       </button>
-      <button
-        class="btn btn-outline-primary"
-        onclick="Grid.clearGridObstaclesAndPaths()"
-      >
+      <button class="btn btn-outline-primary" onclick="Grid.clearGridObstaclesAndPaths()">
         Clear Board
       </button>
     </div>
@@ -77,10 +59,7 @@
       <a href="https://github.com/AbdallahHemdan" target="_black">
         <i title="Github" class="fab fa-github"></i>
       </a>
-      <a
-        href="https://www.linkedin.com/in/abdallah-a-hemdan-4a94a614a/"
-        target="_black"
-      >
+      <a href="https://www.linkedin.com/in/abdallah-a-hemdan-4a94a614a/" target="_black">
         <i title="Linkedin" class="fab fa-linkedin-in"></i>
       </a>
       <a href="mailto:abdallah.ahmed.hemdan@gmail.com" target="_black">
@@ -89,10 +68,7 @@
       <a href="https://www.hackerrank.com/Hemdan" target="_black">
         <i title="HackerRank" class="fab fa-hackerrank"></i>
       </a>
-      <a
-        href="https://www.facebook.com/profile.php?id=100009270028400"
-        target="_black"
-      >
+      <a href="https://www.facebook.com/profile.php?id=100009270028400" target="_black">
         <i title="FaceBook" class="fab fa-facebook-f"></i>
       </a>
       <a href="https://codeforces.com/profile/AbdallahHemdan" target="_black">
@@ -100,7 +76,7 @@
       </a>
     </div>
     <footer>
-      CopyRight&copy;<span style="color: #E90404"> AbdallahHemdan</span>
+      CopyRight&copy;<span style="color: #e90404;"> AbdallahHemdan</span>
       2020.
     </footer>
     <script src="js/grid.js"></script>
