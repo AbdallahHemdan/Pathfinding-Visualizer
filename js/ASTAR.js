@@ -1,4 +1,4 @@
-let AStar = (function() {
+let AStar = (function () {
   class gridNode {
     constructor(x, y, obstacle = false) {
       (this.x = x), (this.y = y);
@@ -18,7 +18,8 @@ let AStar = (function() {
   let noOfDirections = 4;
   let directionX = [1, -1, 0, 0];
   let directionY = [0, 0, 1, -1];
-  function initGrid(grid) {
+
+  const initGrid = grid => {
     gridHeight = grid.length;
     gridWidth = grid[0].length;
 
@@ -32,14 +33,14 @@ let AStar = (function() {
         nodes[row][col] = node;
       }
     }
-  }
+  };
 
-  function findPath(grid) {
+  const findPath = grid => {
     initGrid(grid);
     return runAStar();
-  }
+  };
 
-  function runAStar() {
+  const runAStar = () => {
     open = [startNode];
 
     while (open.length > 0) {
@@ -48,6 +49,7 @@ let AStar = (function() {
       current.closed = true;
       if (current === goalNode) return getPath(current);
       let neighbors = getNeighbors(current);
+
       neighbors.forEach(neighbor => {
         if (neighbor.closed || neighbor.obstacle) return;
         if (open.includes(neighbor)) {
@@ -63,11 +65,12 @@ let AStar = (function() {
         neighbor.f = neighbor.g + neighbor.h;
       });
     }
+
     // no-path founded..
     return false;
-  }
+  };
 
-  function getNodeWithLowestFCost() {
+  const getNodeWithLowestFCost = () => {
     let closestNode = open[0];
     for (let i = 1; i < open.length; i++) {
       if (open[i].f < closestNode.f) {
@@ -75,9 +78,9 @@ let AStar = (function() {
       }
     }
     return closestNode;
-  }
+  };
 
-  function getNeighbors(currentNode) {
+  const getNeighbors = currentNode => {
     let neighbors = [];
     for (let k = 0; k < noOfDirections; k++) {
       let newX = currentNode.x + directionX[k];
@@ -87,27 +90,23 @@ let AStar = (function() {
       }
     }
     return neighbors;
-  }
+  };
 
-  function isValidNode(x, y) {
-    return x >= 0 && x < gridWidth && y >= 0 && y < gridHeight;
-  }
+  const isValidNode = (x, y) => x >= 0 && x < gridWidth && y >= 0 && y < gridHeight;
 
-  function getPath(node) {
+  const getPath = node => {
     let path = [];
     while (node.parent !== null) {
       path.unshift({ x: node.x, y: node.y });
       node = node.parent;
     }
     return path;
-  }
+  };
 
-  function heuristicCostUsingManhattanDistance(node) {
-    return Math.abs(node.x - goalNode.x) + Math.abs(node.y - goalNode.y);
-  }
+  const heuristicCostUsingManhattanDistance = node =>
+    Math.abs(node.x - goalNode.x) + Math.abs(node.y - goalNode.y);
 
-  // Public interface
   return {
-    findPath: findPath
+    findPath: findPath,
   };
 })();
