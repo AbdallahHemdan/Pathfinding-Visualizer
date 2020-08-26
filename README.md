@@ -50,6 +50,6 @@
 
 <div align="center">
   
-<img width="1000px" src="https://github.com/AbdallahHemdan/Pathfinding-Visualizer/blob/master/VideoDemo/Visualizer-out-slow.gif">
+<img width="1000px" src="https://github.com/AbdallahHemdan/Pathfinding-Visualizer/blob/master/demo/Visualizer-out-slow.gif">
 
 </div>
